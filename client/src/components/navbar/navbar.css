@@ -1,0 +1,27 @@
+.search {
+    align-items: end;
+    
+}
+
+.input {
+    margin-top: 46px;
+    margin-left: 934px;
+    width: 332px;
+    height: 44px;
+    box-shadow: 7px 7px 15px rgba(24, 9, 9, 0.685);
+    border-radius: 60px;
+    font-size: 26px;
+    padding-left: 15px;
+}
+
+
+.boton1 {
+   width: 90px;
+   height: 40px;
+   margin-left: 20px;
+   font-size: 20px;
+   border-radius: 60px;
+   box-shadow: 7px 7px 15px rgba(24, 9, 9, 0.685);
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: 700;
+}

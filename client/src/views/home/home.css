@@ -1,0 +1,162 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+ 
+  /* background: linear-gradient(to left, rgba(7, 27, 82, 1) 0%, rgba(0, 128, 128, 1)100%); */
+  /* background-image: url("../landing/MESA_01.jpg");
+  background-size: cover;
+  text-align: center;  */
+/* } */ 
+
+.titulo {
+    background-color: rgb(70, 0, 141);
+    height: 134px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 3px;
+    display: flex;
+    justify-content:baseline;
+    
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./fondo.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 965px;
+    
+  }
+
+.home1 {
+  background-color: rgba(240, 248, 255, 0.342);
+  width: 1950px;
+  height: 965px;
+
+}
+
+.logoHome {
+  margin-top: 20px;
+  margin-left: 65px;
+  width: 110px;
+  height: 94px;
+
+}
+
+.hr {
+  margin-left: 73px;
+  height: 77px;
+  margin-top: 30px;
+}
+
+.crear {
+  margin-top: 60px;
+  margin-right: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.enlace1 {
+  text-decoration: none;
+  color: aliceblue; 
+}
+
+.filtros {
+  display: flex;
+  justify-content:baseline;
+  margin-bottom: 40px;
+}
+
+.texto {
+  margin-left: 250px;
+  margin-right: 24px;
+  margin-top: 41px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: rgb(56, 54, 54);
+}
+
+.texto2 {
+  margin-left: 110px;
+  margin-right: 24px;
+  margin-top: 41px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: rgb(56, 54, 54);
+}
+
+.selector {
+  width: 250px;
+  height: 44px;
+  margin-top: 24px;
+  margin-right: 24px;
+  border-radius: 60px;
+  border: 2px solid rgb(70, 0, 141);
+  background-color:rgba(240, 248, 255, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(56, 54, 54);
+  box-shadow: 0 0 3px 1px #ccc;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.selector option {
+  background-color: rgba(68, 73, 73, 0.562);
+  
+}
+
+.flechas_cards{
+  display: flex;
+}
+
+.flecha_izquierda {
+  background-color: rgb(70, 0, 141);
+  color: aliceblue;
+  font-size: 30px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 300px;
+  margin-right: 1px;
+  margin-left: 30px;
+
+}
+
+.flecha_derecha {
+  background-color: rgb(70, 0, 141);
+  font-size: 10px;
+  color: aliceblue;
+  height: 30px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 300px;
+  margin-right: 30px;
+  margin-left: 1px;
+  transform: rotate(180deg);
+}
+
+.botonf {
+  background-color: rgba(71, 0, 141, 0.726);
+  color: aliceblue;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  width: 180px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
